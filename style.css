@@ -1,0 +1,124 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto  ;
+    padding: 0;
+}
+
+/* ---- typography ---- */
+
+body {
+}
+
+h1 {
+    font-family:"Times New Roman",Georgia,serif;
+    font-size: 2.2rem;
+}
+
+
+h2 {
+    font-family:"Times New Roman",Georgia,serif;
+
+
+}
+
+h3 {
+    font-family:"Times New Roman",Georgia,serif;
+
+
+}
+
+p {
+    font-family:sans-serif;
+}
+
+
+
+
+
+
+/* ---- layout ---- */
+header nav {
+    padding: 15px 30px;
+
+}
+.button {   
+
+    margin: 48px;
+
+
+}
+.second {
+    background-color: #f5f5f5;
+}
+
+.logos img {
+    display: block;
+    margin: auto ;
+    padding: 40px 5px; 
+
+}
+.third {
+    background-image: ur
+}
+
+/*#site-header {
+padding: 30px 0;
+color: white;
+background: #111;
+}*/
+
+/*#site-footer {
+color: white;
+padding: 60px 0;
+background: #111;
+}
+
+/* #site-main {
+margin-bottom: 60px;
+}
+
+.container {
+margin: 0 20px;
+}
+
+.section {
+margin-bottom: 20px;
+padding-top: 20px;
+}
+*/
+
+.container {
+    padding: 1rem 1.5rem;
+}
+
+
+
+
+
+/* ---- components ---- */
+
+.button  {
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 19px 40px 20px;
+    color: white;
+    background-color: #3f46ad;
+    border: none;
+    border-radius: 4px;
+
+}
+.button-white  {
+    background-color: #fff;
+    color: #1c299d;    
+    border-color:#1c299d;
+    box-shadow: inset 0 0 0 1px #9ba0d3;  }
+
