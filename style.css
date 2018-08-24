@@ -66,8 +66,15 @@ section div.list{
 }
 section div.list p{
     text-transform: uppercase;
-    
+    color: #6d6f7b;
+    font-size: 1rem;
+    font-weight: 700;
 
+}
+section div.list li {
+    color: #6d6f7b;
+    padding: .75rem 0;
+    font-weight: 400;  
 }
 
 footer div.footer a {
@@ -77,11 +84,15 @@ footer div.footer a {
 }
 
 footer div.footer li {
-        list-style: none;
-        text-align: center;
-        font-weight: 700;
-        margin-bottom: 30px;
-        font-size: 1rem;
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+section.third h2 {
+    padding: 30px 30px
 }
 
 
@@ -113,6 +124,10 @@ header nav {
 section.first img {
     height: auto;
     width: 100%;
+}
+section.third h2{
+    font-size: 1.625rem;
+    text-align: center;
 }
 input.email{
     padding: 19px 40px 20px;
@@ -196,6 +211,8 @@ section div.list{
 
 section.third {
     background-color: #3f46ad;
+    color: white;
+
 }
 
 /*Footer*/
@@ -206,4 +223,8 @@ div.socials {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
+}
+div.socials a {
+    margin-right: 48px;
+
 }
