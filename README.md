@@ -9,4 +9,4 @@
 - add style for buttons and links
 - add style for components (mobile only)
 - add responsive rules (min-width)
-- mobile menu
+
